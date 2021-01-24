@@ -50,6 +50,7 @@ const rules = [
 		use: [
 			MiniCssExtractPlugin.loader,
 			'css-loader',
+			'sass-loader',
 		]
 	},
 	{
